@@ -1,0 +1,34 @@
+$width-name: max-width;
+$media-big-device: 993px;
+$media-medium-device: 768px;
+$media-small-device: 425px;
+$carousel-height: 100vh;
+
+@mixin hover-items($size, $color) {
+  transform: $size;
+  background: $color;
+}
+
+@mixin logo-size($width, $radius) {
+  width: $width;
+  border-radius: $radius;
+}
+
+@mixin carousel-controls {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  top: calc(50% - 25px);
+}
+
+@mixin hover-navbar-items {
+  transform: scale(1.1);
+  background: linear-gradient(
+    to bottom,
+    #000,
+    #000 74%,
+    #00dbfddc 98%,
+    #000 85%
+  );
+}

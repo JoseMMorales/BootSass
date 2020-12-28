@@ -1,0 +1,18 @@
+@media screen and ($width-name: $media-big-device) {
+  .navbar-collapse {
+    padding: 0;
+
+    ul[class^="navbar-icons"] {
+      margin: 10px 0;
+    }
+  }
+
+  .nav-item:hover a,
+  .footer-link a {
+    font-size: 16px;
+  }
+
+  .list-inline-item:hover img {
+    padding: 0 5px;
+  }
+}
