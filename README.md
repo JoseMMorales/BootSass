@@ -1,7 +1,7 @@
-# Description
+# BootSass
 Who would like to use CSS Superpower?? Just implement your website with [Sass](https://sass-lang.com/).
 
-I gave it a shot with my bootstrap project and I fell in love with [SCSS](https://sass-lang.com/documentation/syntax), as this is a really good practice of how to organize your CSS for different pages and features. I sticked to the basic level of Sass which is incrementing efficiency re-using mixins, assigning variables, creating Partials and building nesting trees for a clear understanding on how my stylesheets work. 
+I gave it a shot with my bootstrap project, and I fell in love with [SCSS](https://sass-lang.com/documentation/syntax), as this is a really good practice of how to organize your CSS for different pages and features. I sticked to the basic level of Sass which is incrementing efficiency re-using mixins, assigning variables, creating Partials and building nesting trees for a clear understanding on how my stylesheets work. 
 
 ## Further clarification of Basics:
 
@@ -9,7 +9,7 @@ I gave it a shot with my bootstrap project and I fell in love with [SCSS](https:
 
 ![Screenshot 2020-12-28 at 14 24 36](https://user-images.githubusercontent.com/43299285/103217230-6c4d9a80-4918-11eb-9e9e-1481b4485683.png)
 
-* Mixins: A mixin is a group of CSS declarations that can be reused for different reasons. You also can pass parameters to share themm all by element in your website.
+* Mixins: A mixin is a group of CSS declarations that can be reused for different reasons. You also can pass parameters to share them all by element in your website.
 
 ![Screenshot 2020-12-28 at 14 22 24](https://user-images.githubusercontent.com/43299285/103217131-24c70e80-4918-11eb-8274-256635719b96.png)
 
@@ -17,7 +17,7 @@ I gave it a shot with my bootstrap project and I fell in love with [SCSS](https:
 
 ![Screenshot 2020-12-28 at 14 25 36](https://user-images.githubusercontent.com/43299285/103217303-90a97700-4918-11eb-88d9-ceb36b4d0a7f.png)
 
-* Nesting: You will be able to nest your CSS code from parents to children adding styles ordering by hierarchy. & sign are very common when adding different selectors like Hover, Visited, etc...
+* Nesting: You will be able to nest your CSS code from parents to children adding styles ordering by hierarchy. & signs are very common when adding different selectors like Hover, Visited, etc...
 
 ![Screenshot 2020-12-28 at 14 30 01](https://user-images.githubusercontent.com/43299285/103217575-2e9d4180-4919-11eb-9c9a-1996909128d2.png)
 
