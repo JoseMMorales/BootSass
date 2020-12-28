@@ -1,7 +1,7 @@
 # Description
 Who would like to use CSS Superpower?? Just implement your website with [Sass](https://sass-lang.com/).
 
-I gave it a shot with my bootstrap project and I fell in love with [SCSS](https://sass-lang.com/documentation/syntax), as this is a really good practice of how to organize your CSS for different pages and features. I have been sticked to the basic level of Sass which is incementing efficiency re-using mixins, assigning variables, creating Partials and building nesting trees for a clear understanding on how/what my stylesheets mean. 
+I gave it a shot with my bootstrap project and I fell in love with [SCSS](https://sass-lang.com/documentation/syntax), as this is a really good practice of how to organize your CSS for different pages and features. I sticked to the basic level of Sass which is incrementing efficiency re-using mixins, assigning variables, creating Partials and building nesting trees for a clear understanding on how my stylesheets work. 
 
 ## Further clarification of Basics:
 
@@ -21,6 +21,9 @@ I gave it a shot with my bootstrap project and I fell in love with [SCSS](https:
 
 ![Screenshot 2020-12-28 at 14 30 01](https://user-images.githubusercontent.com/43299285/103217575-2e9d4180-4919-11eb-9c9a-1996909128d2.png)
 
+## Demo Website
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/43299285/103221309-9b690980-4922-11eb-87f6-f604724bf153.gif)
 
 ## Installing
 * Clone the project to your local directory.
