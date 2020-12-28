@@ -23,7 +23,7 @@ I gave it a shot with my bootstrap project and I fell in love with [SCSS](https:
 
 ## Demo Website
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/43299285/103221309-9b690980-4922-11eb-87f6-f604724bf153.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/43299285/103221871-f3ecd680-4923-11eb-8db7-43aaacf12eae.gif)
 
 ## Installing
 * Clone the project to your local directory.
