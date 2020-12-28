@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="build/css/custom.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top bg-black">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" class="logo-page" alt="logo-bootstrap">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-black" id="navbarSupportedContent">
+        <ul class="navbar-collapse">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards">Cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#table">Table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pagination">Pagination</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-icons bg-black">
+          <li class="list-inline-item">
+            <a href="https://twitter.com/getbootstrap?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              target="_blank">
+              <img src="assets/img/twitter.png" class="gb-light" alt="twitter-image">
+            </a>
+          </li>
+          <li class="list-inline-item"><a href="https://www.facebook.com/getbootstrap/" target="_blank">
+              <img src="assets/img/facebook.png" alt="facebook-image">
+            </a>
+          </li>
+          <li class="list-inline-item"><a href="https://dribbble.com/tags/bootstrap_4" target="_blank">
+              <img src="assets/img/dribbble.png" alt="dribble-image">
+            </a>
+          </li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/explore/tags/bootstrap/?hl=en"
+              target="_blank">
+              <img src="assets/img/instagram.png" alt="istagram-image">
+            </a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-outline-light ml-4 d-none d-sm-none d-md-none d-lg-block" data-toggle="modal"
+          data-target="#exampleModal" data-whatever="@fat">
+          Log In
+        </button>
+      </div>
+    </nav>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Username</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Password</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+          </form>
+          <a href="#" class="badge badge-danger">Forgot your account?</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Sing In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="mb-5 row">
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/img1.jpg" alt="First slide">
+            <div class="carousel-caption mb-4">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/img2.jpg" alt="Second slide">
+            <div class="carousel-caption mb-4">
+              <h5>Second slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/img3.jpg" alt="Third slide">
+            <div class="carousel-caption mb-4">
+              <h5>Third slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/img4.jpg" alt="Fourth slide">
+            <div class="carousel-caption mb-4">
+              <h5>Fourth slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/img5.jpg" alt="Fifth slide">
+            <div class="carousel-caption mb-4">
+              <h5>Fifth slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <section id="cards">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-5 heading-color">
+          <h1>Cards</h1>
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-6 col-xl-6 py-3">
+          <div class="card border border-dark">
+            <img src="assets/img/card1.gif" alt="Card image cap">
+            <div class="text-center p-3 border border-dark">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-6 col-xl-6 py-3">
+          <div class="card border border-dark">
+            <img src="assets/img/card2.gif" alt="Card image cap">
+            <div class="text-center p-3 border border-dark">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-6 col-xl-6 py-3">
+          <div class="card border border-dark">
+            <img src="assets/img/card3.gif" alt="Card image cap">
+            <div class="text-center p-3 border border-dark">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-6 col-xl-6 py-3">
+          <div class="card border border-dark">
+            <img src="assets/img/card4.gif" alt="Card image cap">
+            <div class="text-center p-3 border border-dark">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-6 col-xl-6 py-3">
+          <div class="card border border-dark">
+            <img src="assets/img/card5.gif" alt="Card image cap">
+            <div class="text-center p-3 border border-dark">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-12 col-md-4 col-lg-6 col-xl-6 py-3">
+          <div class="card border border-dark">
+            <img src="assets/img/card6.gif" alt="Card image cap">
+            <div class="text-center p-3 border border-dark">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="table">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-5 heading-color">
+          <h1>Table</h1>
+        </div>
+        <table class="table table-hover border-warning border-dark">
+          <thead>
+            <tr class="table-active text-center">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-primary text-center">
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr class="table-success text-center">
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr class="table-warning text-center">
+              <th scope="row">3</th>
+              <td>Larry the Bird</td>
+              <td>@twitter</td>
+              <td>@mdo</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section id="pagination">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 my-5 heading-color">
+          <h1>Pagination</h1>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 my-5 heading-color">
+          <h1>Contact</h1>
+        </div>
+        <div class="col-md-6 d-flex flex-column jus">
+          <h3>Ready to keep in touch with <b>CodeSpace...</b></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic. consectetur adipisicing
+            elit.consectetur adipisicing elit. Expedita, hic.
+            Expedita, hic.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" name="text" class="form-control" placeholder="Name*" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" name="text" class="form-control" placeholder="Last Name*" required>
+              </div>
+            </div>
+            <div class="col-md-12 w-100">
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Email*" required>
+              </div>
+            </div>
+            <div class="col-md-12 w-100">
+              <div class="form-group">
+                <input type="number" name="phoneNumber" class="form-control" placeholder="Phone number(optional)">
+              </div>
+            </div>
+            <div class="form-group col-md-12 w-100">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Type your comments here..."></textarea>
+            </div>
+            <div class="col-md-12 w-100">
+              <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer bg-black">
+    <div class="container d-flex flex-column align-items-center">
+      <img src="assets/img/footer-logo.jpg" class="logo-footer my-3" alt="logo">
+      <ul class="decoration-list my-4 d-flex flex-column align-items-center flex-md-row flex-lg-row flex-xl-row">
+        <li class="footer-link">
+          <a class="text-white" href="#">Home</a>
+        </li>
+        <li class="footer-link">
+          <a class="text-white" href="#cards">Cards</a>
+        </li>
+        <li class="footer-link">
+          <a class="text-white" href="#table">Table</a>
+        </li>
+        <li class="footer-link">
+          <a class="text-white" href="#pagination">Pagination</a>
+        </li>
+        <li class="footer-link">
+          <a class="text-white" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-icons my-4">
+        <li class="list-inline-item">
+          <a href="https://twitter.com/getbootstrap?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            target="_blank">
+            <img src="assets/img/twitter.png" alt="twitter-image">
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com/getbootstrap/" target="_blank">
+            <img src="assets/img/facebook.png" alt="facebook-image">
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://dribbble.com/tags/bootstrap_4" target="_blank">
+            <img src="assets/img/dribbble.png" alt="dribble-image">
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/explore/tags/bootstrap/?hl=en" target="_blank">
+            <img src="assets/img/instagram.png" alt="istagram-image">
+          </a>
+        </li>
+      </ul>
+      <small class="text-light">&#169;All Rights Reserved, Created by JoseMMorales</small>
+    </div>
+  </section>
+  <!-- Scripts -->
+  <script src="assets/bootstrap/js/JQueryv3.5.1.js"></script>
+  <script src="assets/bootstrap/js/Popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
