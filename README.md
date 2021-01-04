@@ -26,17 +26,13 @@ I gave it a shot with my bootstrap project, and I fell in love with [SCSS](https
 ![Screen-Recording-2020-12-28-at-1](https://user-images.githubusercontent.com/43299285/103224248-b2f6c100-4927-11eb-8b8d-00b32209a349.gif)
 
 ## Installing
-* Clone the project to your local directory.
+* Clone the project to your local directory
 * $git clone https://github.com/JoseMMorales/BootSass.git
-* $cd BootSass.
-* Right click on index.html file and select "Copy path".
-* Open window browser and paste URL.
+* $cd BootSass
+* $npm install
+* $npm start
 
-## Start Compiling Sass
-* You will need to install [NodeJS](https://nodejs.org/en/download/) last version.
-* Enter in terminal sass command *sass --watch scss:css* targeting directories to compile.
-* Note!! Make sure you are inside of assets folder to give the right path when enter the command.
-* Sass will create Custom and Source Map files for your when start compiling.
+#### Any SCSS file changes will be compiled automatically 
 
 ## Technology:
 * HTML5
