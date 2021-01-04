@@ -1,0 +1,25 @@
+{
+  "name": "bootsass",
+  "version": "1.0.0",
+  "description": "The Document Object Model[(DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is an interface to webpages, represented in an HTML document created by the browser when the page is loaded. using JavaScript we may modify the structure, style and content of the web.",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p build/css && sass --watch assets/scss:build/css &",
+    "start": "npm run build && sleep 6 && http-server -c-1 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseMMorales/BootSass.git"
+  },
+  "author": "JoseMMorales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseMMorales/BootSass/issues"
+  },
+  "homepage": "https://github.com/JoseMMorales/BootSass#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "sass": "^1.32.0"
+  }
+}
